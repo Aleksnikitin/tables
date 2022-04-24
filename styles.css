@@ -1,0 +1,84 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.table-1,
+.table-2,
+.table-3 {
+	width: 100%;
+	margin-bottom: 130px;
+	margin: 80px 0 130px;
+}
+
+body {
+	background-color: #F3DFD8;
+	/*#B58794;*/
+}
+
+table,
+td,
+th {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 17.5px;
+	border-spacing: 0px;
+}
+
+
+
+td {
+	background-color: #EAC9B8;
+	padding: 11.5px;
+}
+
+
+.table-1 th[scope],
+.table-2 th[scope],
+.table-3 th[scope] {
+	background-color: #17517E;
+	color: whitesmoke;
+}
+
+nav.navigation {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	height: 80px;
+	background-color: #09092f;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1;
+	font-size: 20px;
+}
+
+
+.navigation li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 27.5px 40px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+}
+
+
+td:hover {
+	background-color: palegoldenrod;
+}
+
+/* соединить новые линки */
